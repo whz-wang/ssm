@@ -1,0 +1,114 @@
+2019-7-12 12:07:03[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`           SET ( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+2019-7-12 12:11:47[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`          SET ( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+2019-7-12 12:14:10[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`          SET( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+2019-7-12 12:15:36[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`          SET ( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+2019-7-12 12:25:48[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`          SET ( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+2019-7-12 12:27:39[ERROR](AroundLogger.java:46) modifyUser 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+### The error may involve com.bdqn.ssm.dao.UserDao.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE `smbms_user`          SET ( userCode,                                           userName )           VALUES ( ?,                                           ? )           WHERE `id` = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( userCode,
+            
+            
+                userName ) 
+         VALUE' at line 2

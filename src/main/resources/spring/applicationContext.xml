@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <!--导入三大核心配置文件-->
+    <!--导入Spring对dao层的管理配置-->
+    <import resource="applicationContext-dao.xml"/>
+    <!--导入Spring对service层的管理配置-->
+    <import resource="applicationContext-service.xml"/>
+    <!--导入Spring对aop的管理配置-->
+    <import resource="applicationContext-aop.xml"/>
+
+
+    <!--spring读取数据库配置文件PropertyPlaceholderConfigurer-->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:database.properties"/>
+    </bean>
+    <!--spring整合mybatis框架的相关配置-->
+    <!--数据源的优化：采用commons-dbcp的数据源,对应的类为BasicDataSource-->
+    <bean class="org.apache.commons.dbcp.BasicDataSource" id="dataSource">
+        <property name="driverClassName" value="${driver1}"/>
+        <property name="url" value="${url1}"/>
+        <property name="username" value="${user1}"/>
+        <property name="password" value="${password}"/>
+    </bean>
+    <!--将SqlSession作为bean组件放入到SpringIoC容器中,对应的类为SqlSessionFactoryBean-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+        <!--将数据源依赖注入到SqlSessionFactoryBean组件中-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--导入mybatis的配置文件-->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+        <!--配置别名-->
+        <property name="typeAliasesPackage" value="com.bdqn.ssm.pojo"/>
+        <!--导入相关的映射文件-->
+        <property name="mapperLocations">
+            <list>
+                <value>classpath:mapper/**/*.xml</value>
+            </list>
+        </property>
+    </bean>
+</beans>

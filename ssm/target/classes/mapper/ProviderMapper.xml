@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bdqn.ssm.dao.ProviderDao">
+    <!-- 通过userCode和userPassword查找到用户 -->
+    <select id="selectProCount" resultType="Integer">
+        SELECT COUNT(1) FROM `smbms_provider`
+        <where>
+            <if test="proCode!=null and proCode!=''">
+                and `proCode` LIKE  CONCAT('%',#{proCode},'%')
+            </if>
+            <if test="proName!=null and proName!=''">
+                OR `proName` LIKE  CONCAT('%',#{proName},'%')
+            </if>
+        </where>
+    </select>
+
+
+    <!-- 通过userCode和userPassword查找到用户 -->
+    <select id="selectProviderList" resultType="Provider">
+        SELECT * FROM `smbms_provider`
+        <where>
+            <if test="proCode!=null and proCode!=''">
+                and `proCode` LIKE  CONCAT('%',#{proCode},'%')
+            </if>
+            <if test="proName!=null and proName!=''">
+                OR `proName` LIKE  CONCAT('%',#{proName},'%')
+            </if>
+        </where>
+        ORDER BY `id`
+        Limit #{from},#{pageSize};
+    </select>
+</mapper>

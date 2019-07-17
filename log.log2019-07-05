@@ -1,0 +1,44 @@
+2019-7-5 11:10:48[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '((1-1)*2,2)' at line 4
+### The error may exist in file [D:\mybatisWorkspace\ssm\target\classes\mapper\ProviderMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM `smbms_provider`          WHERE  `proName` LIKE  CONCAT('%',?,'%')          ORDER BY `creationDate`         LIMIT ((?-1)*?,?);
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '((1-1)*2,2)' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '((1-1)*2,2)' at line 4
+2019-7-5 11:11:26[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'currentPageNo-1' not found. Available parameters are [proCode, pageSize, proName, param3, param4, param1, param2, currentPageNo]
+2019-7-5 11:13:21[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1 * 2,2' at line 4
+### The error may exist in file [D:\mybatisWorkspace\ssm\target\classes\mapper\ProviderMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM `smbms_provider`          WHERE  `proName` LIKE  CONCAT('%',?,'%')          ORDER BY `creationDate`         LIMIT ?-1 * ?,?;
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1 * 2,2' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1 * 2,2' at line 4
+2019-7-5 11:13:35[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'currentPageNo-1' not found. Available parameters are [proCode, pageSize, proName, param3, param4, param1, param2, currentPageNo]
+2019-7-5 11:14:45[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'currentPageNo-1' not found. Available parameters are [proCode, pageSize, proName, param3, param4, param1, param2, currentPageNo]
+2019-7-5 11:15:50[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+### The error may exist in file [D:\mybatisWorkspace\ssm\target\classes\mapper\ProviderMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM `smbms_provider`          WHERE  `proName` LIKE  CONCAT('%',?,'%')          ORDER BY `creationDate`         LIMIT (?-1)* ?,?;
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+2019-7-5 11:21:20[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'currentPageNo-1' not found. Available parameters are [proCode, pageSize, proName, param3, param4, param1, param2, currentPageNo]
+2019-7-5 11:21:55[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+### The error may exist in file [D:\mybatisWorkspace\ssm\target\classes\mapper\ProviderMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM `smbms_provider`          WHERE  `proName` LIKE  CONCAT('%',?,'%')          ORDER BY `creationDate`         LIMIT (?-1)* ?,?;
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(1-1)* 2,2' at line 4
+2019-7-5 12:05:34[ERROR](AroundLogger.java:46) getProviderList 方法发生异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT((1-1)* 2,2)' at line 4
+### The error may exist in file [D:\mybatisWorkspace\ssm\target\classes\mapper\ProviderMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM `smbms_provider`          WHERE  `proName` LIKE  CONCAT('%',?,'%')          ORDER BY `creationDate`         CONCAT((?-1)* ?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT((1-1)* 2,2)' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT((1-1)* 2,2)' at line 4
